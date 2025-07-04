@@ -1,0 +1,5 @@
+build:
+  environment:
+    python: 3.8.0
+
+startCommand: python app.py
