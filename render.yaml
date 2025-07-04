@@ -1,5 +1,8 @@
-build:
-  environment:
-    python: 3.8.0
-
-startCommand: python app.py
+services:
+  - type: web
+    name: nuevocheca
+    env: docker
+    plan: free
+    repo: https://github.com/DiegxKing/nuevocheca
+    branch: main
+    dockerfilePath: Dockerfile
